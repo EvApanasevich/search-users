@@ -22,6 +22,7 @@ export const App: React.FC = () => {
         dispatch(getUsers())
         setSearchUsers([])
         setInputText('')
+        setNotFound(false)
     }
 
     return (
